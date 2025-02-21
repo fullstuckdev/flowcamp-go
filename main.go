@@ -1,7 +1,10 @@
 package main
 
 import (
-	utils "struktur-golang/utils"
+	// utils "struktur-golang/utils"
+	// oop "struktur-golang/oop"
+	study_case "struktur-golang/study_case"
+
 )
 func main() {
 	// utils.Variables()
@@ -15,5 +18,8 @@ func main() {
 	// utils.Composition()
 
 	// fmt.Println(identitas.GetAge())
-	utils.Encapsulation()
+	// utils.Encapsulation()
+	// oop.GoConstructor(1, "Taufik", "4128", 23)
+	// study_case.ConcurrencyCase()
+	study_case.GoRoutinesCases()
 }
